@@ -1,0 +1,26 @@
+post ..... http://localhost:9945/signup
+
+{
+	"email": "AliHossamAli@yahoo.com",
+	"password":"12345",
+	"name":"Ali",
+	"passwordConfirm":"12345",
+	"lastName":"Hossam Ali"
+}
+ -------------- result-------
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNTc0NTIwNDJjMzA1MTQ3MDVjYTJmMCIsImlhdCI6MTU5OTU1NDg0OCwiZXhwIjoxNjA4MTk0ODQ4fQ.MyzaWrlcTu1KwPSAXlk4GbXTAIFCaMZ-s1yVIK--T7g",
+  "id": "5f57452042c30514705ca2f0",
+  "user": {
+    "status": "active",
+    "type": "student",
+    "_id": "5f57452042c30514705ca2f0",
+    "email": "AliHossamAli@yahoo.com",
+    "password": "$2b$08$EbfcTlThbIL/CEU0OuRVieej87qBD4a/Ywg7kr5NMW5cZmJGfuL0G",
+    "name": "Ali",
+    "lastName": "Hossam Ali",
+    "createdAt": "2020-09-08T08:47:28.487Z",
+    "updatedAt": "2020-09-08T08:47:28.487Z",
+    "__v": 0
+  }
+}
